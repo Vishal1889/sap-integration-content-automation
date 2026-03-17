@@ -32,9 +32,15 @@ function HomePage() {
             </p>
           </li>
           <li>
+            <strong>In-Tenant Transport</strong>
+            <p>
+              Copies integration content between packages within the same CPI tenant. Transport a single iFlow from one package to another, or clone an entire package by appending a suffix to create a new one. Includes real-time similarity checks and package existence validation.
+            </p>
+          </li>
+          <li>
             <strong>View Logs</strong>
             <p>
-              Provides a complete audit trail of all past download and upload jobs. You can re-download any execution log or results file directly from this table.
+              Provides a complete audit trail with two sections: <strong>Execution Logs</strong> tracks all download, upload, and deploy jobs with re-downloadable log and result files. <strong>Transport Logs</strong> records every iFlow and package transport operation with source/target details and status.
             </p>
           </li>
         </ul>
